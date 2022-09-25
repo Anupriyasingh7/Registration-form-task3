@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <h1>Student Enrollment Form</h1>
+  </div>
+    <div class="container">
+        
+       <div class="registrationcontainer">
+      
+        <div class="name">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name..">
+        </div>
+      
+        <div class="email">
+        <label>Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter Your email.."/>
+        </div>
+       
+        <div class="website">
+          <label>Website :</label>
+          <input type="text" id="website" name="Website" placeholder="Enter your Website.."/>
+        </div>
+        <div class="imglink">
+        <label>Image Link:</label>
+        <input type="text" id="imagelink" name="imagelink" placeholder="Enter your image link.."/>
+        </div>
+        <div class="gender">
+          <label>Gender:</label>
+          <input type="radio" id="gender" name="gender" value="male"/>Male 
+          <input type="radio" id="gender" name="gender" value="female"/>Female
+          </div>
+        <div class="skills">
+        <label>Skills:</label>
+        <input type="checkbox" id="skills" name="Skills" value="java"/> Java
+        <input type="checkbox" id="skills" name="Skills" value="html"/> HTML
+        <input type="checkbox" id="skills" name="Skills" value="CSS"/> CSS
+        <input type="checkbox" id="skills" name="Skills" value="react.js"/> React.js
+        </div>
+        <div class="btn">
+          <button class="submit">Enroll Student</button>
+            <button class="clear">Clear</button>
+        </div>
+       </div>
+       <div class="output">
+           
+       </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
